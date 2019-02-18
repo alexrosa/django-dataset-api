@@ -54,6 +54,9 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'config.urls'
 
+DISABLE_COLLECTSTATIC=1
+
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
